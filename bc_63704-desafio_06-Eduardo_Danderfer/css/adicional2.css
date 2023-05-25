@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto&display=swap");
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*! Estilo: Retro */
+
+:root {
+  --black: #0000005f;
+  --black-2: #000000;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/gasv2.png");
+  background-repeat: repeat-x round;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 3.125rem 0rem;
+  margin: 0 2rem;
+  color: #dedcd9;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  background-color: var(--black);
+  color: #fbb002;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  border-bottom: var(--black-2) 0.1rem solid;
+  backdrop-filter: contrast(145%);
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 00% 0% 00% 0%;
+  -webkit-border-radius: 00% 0% 00% 0%;
+  -moz-border-radius: 00% 0% 00% 0%;
+  -ms-border-radius: 00% 0% 00% 0%;
+  -o-border-radius: 00% 0% 00% 0%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+fieldset {
+  position: relative;
+  border: var(--black-2) 2px solid;
+  background-color: #21144dd9;
+  margin: 4rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0px 82px 95px 95px;
+  -webkit-border-radius: 0px 82px 95px 95px;
+  -moz-border-radius: 0px 82px 95px 95px;
+  -ms-border-radius: 0px 82px 95px 95px;
+  -o-border-radius: 0px 82px 95px 95px;
+}
+
+.title-2 {
+  text-transform: uppercase;
+  color: var(--white);
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--black-2);
+  font-size: 1rem;
+  top: -2.9rem;
+  left: -0.1rem;
+  padding: 0.4rem;
+  letter-spacing: 0.6px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 60px 50px 5px 5px;
+  -webkit-border-radius: 60px 50px 5px 5px;
+  -moz-border-radius: 60px 50px 5px 5px;
+  -ms-border-radius: 60px 50px 5px 5px;
+  -o-border-radius: 60px 50px 5px 5px;
+}
+
+.title-2-emoji {
+  font-size: 1.7rem;
+}
+
+.title-2-span {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.linear-circles {
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+}
+
+.p-sexo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-group-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chekbox-sede-rosario {
+  padding-bottom: 10px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.7rem 0.5rem;
+}
+
+.sedes-wrap {
+  display: flex;
+}
+
+.sedes-p {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.bold-p {
+  color: #fbb002;
+  letter-spacing: 0.5px;
+  font-style: oblique;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.interes-p {
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+input,
+select {
+  accent-color: rgb(255, 251, 5);
+}
+
+input,
+select,
+textarea {
+  background-color: #ffffffa0;
+  height: 2.5rem;
+  vertical-align: middle;
+  border: 1px solid var(--black-2);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+textarea,
+select {
+  width: 72%;
+  margin: 0 auto;
+  resize: vertical;
+  padding-left: 12px;
+}
+
+textarea {
+  padding-top: 0.5rem;
+  min-height: 9.375rem;
+}
+
+select {
+  color: var(--black-2);
+}
+
+input,
+textarea {
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="tel"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="email"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  color: var(#000);
+  width: 65%;
+  min-width: 266px;
+  padding: 1.5rem;
+  margin: 3rem auto 2rem;
+  background-color: #21144dd9;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+  box-shadow: 5px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+}
+
+.terms-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  display: inline-block;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid var(--black-2);
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* hovers */
+.boton:hover {
+  color: #fff;
+  background-color: #2d0240;
+  border-color: var(--white);
+  border: 2px solid #000;
+}
+
+/* focus */
+input:focus,
+textarea:focus,
+select:focus {
+  color: white;
+  background-color: #000;
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #8b59a0;
+  text-align: right;
+  padding-right: 10px;
+}
+
+::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #2d0240;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* selections */
+::selection {
+  background-color: #21144dd9;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1310px) {
+  body {
+    background-position: calc(80% - 6rem);
+  }
+
+  .terms-buttons {
+    flex-direction: column;
+  }
+
+  .boton {
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .p-sexo {
+    margin: 1rem 0 0.5rem;
+  }
+
+  .form-group-options {
+    flex-direction: column;
+  }
+
+  .sedes-wrap {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto&display=swap");
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*! Estilo: Default */
+
+:root {
+  --cream-green: #d6e2de;
+  --light-1-green: #a6c1b9;
+  --light-2-green: #4d6d63;
+  --black-green: #2b3d37;
+  --white: #fff;
+  --black: #1f2023;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--black);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 3.125rem 0rem;
+  margin: 0 2rem;
+}
+
+.title {
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  border-top: var(--light-2-green) 1rem solid;
+  border-right: var(--black) 1.5rem solid;
+  border-bottom: var(--light-2-green) 1rem solid;
+  border-left: var(--black) 1.5rem solid;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+fieldset {
+  position: relative;
+  border: var(--light-2-green) 2px solid;
+  background-color: var(--cream-green);
+  margin: 2rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-2 {
+  text-transform: uppercase;
+  color: var(--white);
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--light-2-green);
+  font-size: 1rem;
+  top: -1rem;
+  left: 1.2rem;
+  padding: 0.4rem;
+  letter-spacing: 0.6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-2-emoji {
+  font-size: 1.7rem;
+}
+
+.title-2-span {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.linear-circles {
+  text-align: center;
+  width: 50%;
+  border: none;
+  border-bottom: var(--cream-green) 19px dotted;
+  margin: 2rem auto 2.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+}
+
+.p-sexo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-group-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chekbox-sede-rosario {
+  padding-bottom: 10px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem 0.7rem 0;
+}
+
+.sedes-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.sedes-p {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.interes-p {
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+input,
+select,
+textarea {
+  height: 2.5rem;
+  vertical-align: middle;
+  border: 1px solid var(--light-2-green);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+textarea,
+select {
+  width: 72%;
+  margin: 0 auto;
+  resize: vertical;
+  padding-left: 12px;
+}
+
+textarea {
+  padding-top: 0.5rem;
+  min-height: 9.375rem;
+}
+
+select {
+  color: var(--light-2-green);
+}
+
+input,
+textarea {
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="tel"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="email"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  vertical-align: middle;
+  color: var(--white);
+}
+
+.terms-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  display: inline-block;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: var(--black-green);
+  border: 1px solid var(--light-2-green);
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+/* hovers */
+.boton:hover {
+  color: var(--black-green);
+  background-color: var(--light-1-green);
+  border-color: var(--black-green);
+}
+
+/* focus */
+input:focus,
+textarea:focus {
+  color: white;
+  background-color: var(--light-2-green);
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #a19f9f;
+  text-align: right;
+  padding-right: 10px;
+}
+
+::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #a19f9f;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* changes */
+#fieldset-changes:focus-within {
+  background-color: var(--light-1-green);
+}
+
+#fieldset-changes:focus-within #title-changes {
+  background-color: var(--black-green);
+}
+
+/* selections */
+::selection {
+  background-color: var(--light-1-green);
+}
+
+@media screen and (max-width: 500px) {
+  .p-sexo {
+    margin: 1rem 0 0.5rem;
+  }
+
+  .form-group-options {
+    flex-direction: column;
+  }
+
+  .sedes-wrap {
+    flex-direction: column;
+  }
+}

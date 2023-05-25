@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto&display=swap");
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*! Estilo: Urbano */
+
+:root {
+  --light-main: #a37f62;
+  --color-1: #f0bb90;
+  --color-2: #28050b;
+  --color-3: #1b0307;
+  --white: #fff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/ladrillos.png");
+  background-repeat: repeat-x round;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: calc(80% - 8rem) calc(80% - -3rem);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 3.125rem 0rem;
+  margin: 0 2rem;
+}
+
+.title {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  border-top: var(--color-2) 0.5rem solid;
+  border-right: var(--color-2) 0.5rem solid;
+  border-bottom: var(--color-2) 0.5rem solid;
+  border-left: var(--color-2) 0.5rem solid;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 00% 0% 00% 0%;
+  -webkit-border-radius: 00% 0% 00% 0%;
+  -moz-border-radius: 00% 0% 00% 0%;
+  -ms-border-radius: 00% 0% 00% 0%;
+  -o-border-radius: 00% 0% 00% 0%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+fieldset {
+  position: relative;
+  border: var(--color-2) 2px solid;
+  background-color: var(--light-main);
+  margin: 2rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 5px 65px 5px 65px;
+  -webkit-border-radius: 5px 65px 5px 65px;
+  -moz-border-radius: 5px 65px 5px 65px;
+  -ms-border-radius: 5px 65px 5px 65px;
+  -o-border-radius: 5px 65px 5px 65px;
+  box-shadow: 5px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+}
+
+.title-2 {
+  text-transform: uppercase;
+  color: var(--white);
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-2);
+  font-size: 1rem;
+  top: -1rem;
+  left: 1.2rem;
+  padding: 0.4rem;
+  letter-spacing: 0.6px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.title-2-emoji {
+  font-size: 1.7rem;
+}
+
+.title-2-span {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.linear-circles {
+  visibility: hidden;
+  text-align: center;
+  width: 50%;
+  border: none;
+  border-bottom: var(--light-main) 3px dashed;
+  margin: 2rem auto 2.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+}
+
+.p-sexo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-group-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chekbox-sede-rosario {
+  padding-bottom: 10px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.7rem 0.5rem;
+}
+
+.sedes-wrap {
+  display: flex;
+}
+
+.sedes-p {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.bold-p {
+  letter-spacing: 0.5px;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.interes-p {
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+input,
+select {
+  accent-color: var(--color-2);
+}
+
+input,
+select,
+textarea {
+  height: 2.5rem;
+  vertical-align: middle;
+  border: 1px solid var(--color-2);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+textarea,
+select {
+  width: 72%;
+  margin: 0 auto;
+  resize: vertical;
+  padding-left: 12px;
+}
+
+textarea {
+  padding-top: 0.5rem;
+  min-height: 9.375rem;
+}
+
+select {
+  color: var(--color-2);
+}
+
+input,
+textarea {
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="tel"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+input[type="email"] {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  color: var(#000);
+  width: 65%;
+  min-width: 266px;
+  padding: 1.5rem;
+  margin: 3rem auto 2rem;
+  background-color: var(--light-main);
+  border-radius: 65px 65px 65px 65px;
+  -webkit-border-radius: 65px 65px 65px 65px;
+  -moz-border-radius: 65px 65px 65px 65px;
+  -ms-border-radius: 65px 65px 65px 65px;
+  -o-border-radius: 65px 65px 65px 65px;
+  box-shadow: 5px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 11px 13px 12px 1px rgba(0, 0, 0, 0.74);
+}
+
+.terms-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  display: inline-block;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: var(--color-3);
+  border: 1px solid var(--color-2);
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* hovers */
+.boton:hover {
+  color: var(--color-3);
+  background-color: var(--color-1);
+  border-color: var(--color-3);
+}
+
+/* focus */
+input:focus,
+textarea:focus {
+  color: white;
+  background-color: var(--color-2);
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #a19f9f;
+  text-align: right;
+  padding-right: 10px;
+}
+
+::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #a19f9f;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* changes */
+
+#fieldset-changes:focus-within,
+.terms:focus-within {
+  background-color: var(--color-1);
+}
+
+#fieldset-changes:focus-within #title-changes {
+  background-color: var(--color-3);
+}
+
+/* selections */
+::selection {
+  background-color: var(--color-1);
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .p-sexo {
+    margin: 1rem 0 0.5rem;
+  }
+
+  .form-group-options {
+    flex-direction: column;
+  }
+
+  .sedes-wrap {
+    flex-direction: column;
+  }
+}
