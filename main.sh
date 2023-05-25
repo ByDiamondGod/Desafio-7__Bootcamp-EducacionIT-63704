@@ -4,8 +4,7 @@
 
 git add .
 git commit -m "Test commit"
-git push origin main
+git remote add origin https://github.com/ByDiamondGod/Desafio-7__Bootcamp-EducacionIT-63704.git
+git push -u origin main
 
-#! Ejecutar script
-# ./script.sh 
 
