@@ -1,1 +1,2 @@
-scripts
+*.sh
+# ignora a todos los archivos que terminen con .sh
