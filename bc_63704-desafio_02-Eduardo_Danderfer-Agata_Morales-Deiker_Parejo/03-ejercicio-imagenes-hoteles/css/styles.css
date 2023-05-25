@@ -1,0 +1,74 @@
+:root {
+  --header: #bb5397;
+  --white: #fff;
+  --bkg: #273238;
+  --font: #3d63ba;
+}
+
+.header {
+  color: var(--header);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 18px;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.title {
+  color: var(--header);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 9.2px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: var(--font);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.logo {
+  text-align: center;
+}
+
+.pic-pop {
+  float: right;
+  margin-left: 15px;
+}
+
+.pic-resort {
+  float: left;
+  margin-right: 15px;
+}
+
+.pic-lodge {
+  float: right;
+  margin-left: 15px;
+}
+
+.logo img {
+  width: 30%;
+  height: auto;
+}
+
+.pic-pop img {
+  width: 500px;
+}
+
+.pic-resort img {
+  width: 500px;
+}
+
+.pic-lodge img {
+  width: 500px;
+  height: 260px;
+}
+
+.pic-mouse {
+  width: 100%;
+}

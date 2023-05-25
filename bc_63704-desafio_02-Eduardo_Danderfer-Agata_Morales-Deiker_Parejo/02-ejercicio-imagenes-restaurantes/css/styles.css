@@ -1,0 +1,22 @@
+:root {
+  --header: #ffe100;
+  --bkg: #289688;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--bkg);
+  text-align: center;
+}
+
+.title {
+  color: var(--header);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 58px;
+  font-weight: 900;
+}
+
+.img {
+  border: 10px solid var(--white);
+  margin: 4px;
+}
