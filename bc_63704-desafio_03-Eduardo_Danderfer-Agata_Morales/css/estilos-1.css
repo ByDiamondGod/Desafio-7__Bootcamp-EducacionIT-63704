@@ -1,0 +1,170 @@
+:root {
+  --pink: #e11364;
+  --light-pink: #e96093;
+  --black-pink: #bc105c;
+  --white: #fafafb;
+  --green: #2c8f20;
+}
+
+body {
+  background-color: var(--pink);
+  margin: 0;
+  padding: 0rem 1.5rem 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+  background-color: var(--black-pink);
+  width: 80%;
+  margin: 0 auto;
+  padding: 0rem 3rem 0rem 1.5rem;
+  border-left: 5px var(--white) solid;
+  border-right: 5px var(--white) solid;
+}
+
+.header-title {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section {
+  background-color: var(--black-pink);
+  padding: 2rem 3rem 2rem 2rem;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.main-title2 {
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2px;
+  word-spacing: 0.3px;
+  font-weight: 600;
+}
+.main-article {
+  background-color: var(--white);
+  width: 100%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 0.5rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main-title3 {
+  color: var(--black-pink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 0.2px;
+  word-spacing: 0.3px;
+  font-weight: 800;
+  padding: 1rem 1rem 0rem 1rem;
+  margin: 0px 0px 1rem 0px;
+  text-align: right;
+  border-bottom: 2px var(--black-pink) dotted;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.main-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11.4px;
+}
+
+.main-button-center {
+   text-align: center;
+   margin: 1.3rem 1rem 1rem;
+}
+
+.main-button {
+  background-color: var(--green);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white);
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main-button a:link {
+  color: var(--white); ;
+}
+
+.main-button a:visited {
+  color: var(--white); ;
+}
+
+.main-button:hover {
+  background-color: var(--black-pink);
+  cursor: pointer;
+}
+
+.main-button a:active {
+  color: var(--white); ;
+}
+
+.footer {
+  background-color: var(--light-pink);
+  padding: 1rem 3rem 1rem 1.8rem;
+  width: 80.5%;
+  margin: 1rem auto 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.footer-paragraph {
+  padding: 1rem;
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11.4px;
+  text-align: center;
+}
+
+/*! Games pages */
+
+.body-games {
+  text-align: center;
+}
+
+.main-games {
+  margin-bottom: 3rem;
+}
+
+.game {
+  color: #000;
+}
+
+.game-gif {
+  width: 100%;
+}
+
+.title-game {
+  height: 20px;
+  padding: 0px;
+  margin-bottom: 1.5rem;
+}
+
