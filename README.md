@@ -1,4 +1,4 @@
-  # Desafio 7 ( contiene parte A y B)
+  # Desafio 7 ( contiene 2 partes )
    
   ## Parte A
   + Crear un repositorio por desafio (del 1 al 7)    
@@ -14,7 +14,7 @@
   
     ✅ Dificultad: Facil
     
-    ☢️ Obstáculos: Al juntar varios desafios que ya tienen un .git cada uno, generaba problemas al subirlo, pero fue resuelto. 
+    ☢️ Obstáculos: Al juntar varios desafios que ya tienen un .git cada uno, generaba conflictos al subirlo, pero fue resuelto. 
   
   ## Bonus
     🧠 Decidi crear un script bash para automatizar y mejorar el flujo
