@@ -13,6 +13,7 @@
   + 7 commits distintos por carpetas de desafio
   
     ✅ Dificultad: Facil
+    
     ☢️ Obstáculos: Al juntar varios desafios que ya tienen un .git cada uno, generaba problemas al subirlo, pero fue resuelto. 
   
   ## Bonus
